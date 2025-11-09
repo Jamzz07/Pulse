@@ -118,10 +118,13 @@ This project can be deployed to various platforms like Vercel, Netlify, or any s
 
 Project ScreenShots
 
+Landing Page preview
 <img width="1247" height="906" alt="image" src="https://github.com/user-attachments/assets/991f246a-ef7c-48c5-90e6-c784e27c8b44" />
 
+Chat History preview
 <img width="1564" height="830" alt="image" src="https://github.com/user-attachments/assets/dfa9afb9-63ec-4e5c-acf1-b2aaef83aad9" />
 
+Document Storage Preview
 <img width="1502" height="835" alt="image" src="https://github.com/user-attachments/assets/de7b85a2-fe1c-49bb-a33b-d400e09657ce" />
 
 
