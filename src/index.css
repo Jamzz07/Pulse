@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 210 100% 97%;
+    --foreground: 210 20% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 210 20% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 210 20% 15%;
+
+    --primary: 189 94% 43%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 189 60% 95%;
+    --secondary-foreground: 189 94% 30%;
+
+    --muted: 210 40% 96%;
+    --muted-foreground: 210 20% 50%;
+
+    --accent: 189 94% 43%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 210 40% 90%;
+    --input: 210 40% 90%;
+    --ring: 189 94% 43%;
+
+    --radius: 1rem;
+
+    --chat-user: 0 0% 100%;
+    --chat-user-foreground: 210 20% 15%;
+    --chat-ai: 189 100% 98%;
+    --chat-ai-foreground: 189 94% 30%;
+    
+    --gradient-start: 189 100% 96%;
+    --gradient-end: 189 60% 98%;
+    
+    --pulse-glow: 189 94% 43%;
+  }
+
+  .dark {
+    --background: 210 30% 8%;
+    --foreground: 210 40% 98%;
+
+    --card: 210 25% 12%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 210 25% 12%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 189 94% 50%;
+    --primary-foreground: 210 30% 8%;
+
+    --secondary: 210 30% 15%;
+    --secondary-foreground: 189 60% 80%;
+
+    --muted: 210 30% 15%;
+    --muted-foreground: 210 20% 65%;
+
+    --accent: 189 94% 50%;
+    --accent-foreground: 210 30% 8%;
+
+    --destructive: 0 62.8% 50%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 210 30% 20%;
+    --input: 210 30% 20%;
+    --ring: 189 94% 50%;
+
+    --chat-user: 210 25% 15%;
+    --chat-user-foreground: 210 40% 98%;
+    --chat-ai: 189 30% 15%;
+    --chat-ai-foreground: 189 60% 90%;
+    
+    --gradient-start: 210 30% 10%;
+    --gradient-end: 210 25% 12%;
+    
+    --pulse-glow: 189 94% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
